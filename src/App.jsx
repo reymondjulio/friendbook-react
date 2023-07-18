@@ -9,7 +9,7 @@ function App() {
       {/* Container Card */}
       <div className="container mx-auto w-full p-8 flex flex-wrap justify-center gap-6">
         {/* Reymond Julio */}
-        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 delay-75 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <div className="">
             <img className="w-60 h-60 rounded  overflow-hidden" src="/public/reymond.jpg" alt="reymond" />
           </div>
@@ -22,7 +22,7 @@ function App() {
         </div>
 
         {/* M Haidar Hanif */}
-        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 delay-75 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <div>
             <img className="w-60 h-60 rounded overflow-hidden" src="/public/haidar.jpg" alt="haidar" />
           </div>
@@ -36,7 +36,7 @@ function App() {
         </div>
 
         {/* Christopher Kevin */}
-        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 delay-75 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ">
+        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ">
           <div>
             <img className="w-60 h-60 rounded overflow-hidden" src="/public/christopher.jpg" alt="christopher" />
           </div>
@@ -49,7 +49,7 @@ function App() {
         </div>
 
         {/* Caroline */}
-        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 delay-75 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <div>
             <img className="w-60 h-60 rounded overflow-hidden" src="/public/caroline.jpg" alt="caroline" />
           </div>
@@ -62,7 +62,7 @@ function App() {
         </div>
 
         {/* Victoria */}
-        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 delay-75 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <div>
             <img className="w-60 h-60 rounded overflow-hidden" src="/public/victoria.jpg" alt="vicky" />
           </div>
@@ -76,7 +76,7 @@ function App() {
         </div>
 
         {/* Daniel */}
-        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 delay-75 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ">
+        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ">
           <div>
             <img className="w-60 h-60 rounded overflow-hidden" src="/public/daniel.jpg" alt="daniel" />
           </div>
@@ -89,7 +89,7 @@ function App() {
         </div>
 
         {/* Jessica */}
-        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 delay-75 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ">
+        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ">
           <div>
             <img className="w-60 h-60 rounded overflow-hidden" src="/public/jessica.jpg" alt="jessica" />
           </div>
@@ -103,7 +103,7 @@ function App() {
         </div>
 
         {/* Kelly */}
-        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 delay-75 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+        <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <div>
             <img className="w-60 h-60 rounded overflow-hidden" src="/public/kelly.jpg" alt="kelly" />
           </div>
