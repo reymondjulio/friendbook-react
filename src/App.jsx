@@ -11,7 +11,7 @@ function App() {
         {/* Reymond Julio */}
         <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <div className="">
-            <img className="w-60 h-60 rounded  overflow-hidden" src="/public/reymond.jpg" alt="reymond" />
+            <img className="w-60 h-60 rounded  overflow-hidden" src="public/reymond.jpg" alt="reymond" />
           </div>
           <div className="flex flex-col justify-center items-center p-6  space-y-2 bg-slate-200">
             <h3 className="text-center text-xl font-semibold">Reymond Julio</h3>
@@ -24,7 +24,7 @@ function App() {
         {/* M Haidar Hanif */}
         <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <div>
-            <img className="w-60 h-60 rounded overflow-hidden" src="/public/haidar.jpg" alt="haidar" />
+            <img className="w-60 h-60 rounded overflow-hidden" src="public/haidar.jpg" alt="haidar" />
           </div>
           <div className="flex flex-col justify-center items-center p-6  space-y-2 bg-slate-200">
             <h3 className="text-center text-xl font-semibold">M Haidar Hanif</h3>
@@ -38,7 +38,7 @@ function App() {
         {/* Christopher Kevin */}
         <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ">
           <div>
-            <img className="w-60 h-60 rounded overflow-hidden" src="/public/christopher.jpg" alt="christopher" />
+            <img className="w-60 h-60 rounded overflow-hidden" src="public/christopher.jpg" alt="christopher" />
           </div>
           <div className="flex flex-col justify-center items-center p-6  space-y-2 bg-slate-200">
             <h3 className="text-center text-xl font-semibold">Christopher Kevin</h3>
@@ -51,7 +51,7 @@ function App() {
         {/* Caroline */}
         <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <div>
-            <img className="w-60 h-60 rounded overflow-hidden" src="/public/caroline.jpg" alt="caroline" />
+            <img className="w-60 h-60 rounded overflow-hidden" src="public/caroline.jpg" alt="caroline" />
           </div>
           <div className="flex flex-col justify-center items-center p-6  space-y-2 bg-slate-200">
             <h3 className="text-center text-xl font-semibold">Caroline Elizabeth </h3>
@@ -64,7 +64,7 @@ function App() {
         {/* Victoria */}
         <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <div>
-            <img className="w-60 h-60 rounded overflow-hidden" src="/public/victoria.jpg" alt="vicky" />
+            <img className="w-60 h-60 rounded overflow-hidden" src="public/victoria.jpg" alt="vicky" />
           </div>
           <div className="flex flex-col justify-center items-center p-6  space-y-2 bg-slate-200">
             <h3 className="text-center text-xl font-semibold">Victoria Grace</h3>
@@ -78,7 +78,7 @@ function App() {
         {/* Daniel */}
         <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ">
           <div>
-            <img className="w-60 h-60 rounded overflow-hidden" src="/public/daniel.jpg" alt="daniel" />
+            <img className="w-60 h-60 rounded overflow-hidden" src="public/daniel.jpg" alt="daniel" />
           </div>
           <div className="flex flex-col justify-center items-center p-6  space-y-2 bg-slate-200">
             <h3 className="text-center text-xl font-semibold">Daniel William</h3>
@@ -91,7 +91,7 @@ function App() {
         {/* Jessica */}
         <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ">
           <div>
-            <img className="w-60 h-60 rounded overflow-hidden" src="/public/jessica.jpg" alt="jessica" />
+            <img className="w-60 h-60 rounded overflow-hidden" src="public/jessica.jpg" alt="jessica" />
           </div>
           <div className="flex flex-col justify-center items-center p-6  space-y-2 bg-slate-200">
             <h3 className="text-center text-xl font-semibold">Jessica Lynn</h3>
@@ -105,7 +105,7 @@ function App() {
         {/* Kelly */}
         <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <div>
-            <img className="w-60 h-60 rounded overflow-hidden" src="/public/kelly.jpg" alt="kelly" />
+            <img className="w-60 h-60 rounded overflow-hidden" src="public/kelly.jpg" alt="kelly" />
           </div>
           <div className="flex flex-col justify-center items-center p-6  space-y-2 bg-slate-200">
             <h3 className="text-center text-xl font-semibold">Kelly Marie</h3>
