@@ -51,7 +51,7 @@ function App() {
         {/* Caroline */}
         <div className="max-w-fit h-fit mt-6 rounded shadow-lg shadow-blue-300  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <div>
-            <img className="w-60 h-60 rounded overflow-hidden" src="public/caroline.jpg" alt="caroline" />
+            <img className="w-60 h-60 rounded overflow-hidden" src="/caroline.jpg" alt="caroline" />
           </div>
           <div className="flex flex-col justify-center items-center p-6  space-y-2 bg-slate-200">
             <h3 className="text-center text-xl font-semibold">Caroline Elizabeth </h3>
