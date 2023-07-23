@@ -7,7 +7,14 @@ function App() {
   const [friends, setFriends] = useState(dataFriends);
 
   function confirmFriend(id) {
-    console.log(id);
+    const newFriends = friends.map((friend) => {
+      if (friend.id === id) {
+        return { ...friend, isConfirmed: true };
+      }
+      return friend;
+    });
+
+    setFriends(newFriends);
   }
 
   return (
