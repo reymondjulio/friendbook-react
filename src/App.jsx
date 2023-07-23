@@ -1,6 +1,11 @@
-import { friends } from "./data/friends";
+import { useState } from "react";
+
+import { Button } from "./components/button";
+import { dataFriends } from "./data/friends";
 
 function App() {
+  const [friends, setFriends] = useState(dataFriends);
+
   return (
     <main className="bg-slate-100">
       <header>
@@ -37,12 +42,9 @@ function App() {
 
               {!friend.isConfirmed && (
                 <div className="p-2 space-y-2">
-                  <button className="bg-blue-500 text-white p-2 rounded w-full self-center hover:bg-blue-400">
-                    Confirm
-                  </button>
-                  <button className="bg-slate-300 rounded text-black font-semibold p-2 w-full self-center hover:bg-slate-400">
-                    Delete
-                  </button>
+                  <Button variant="primary">Confirm</Button>
+                  <Button variant="secondary">Delete</Button>
+                  <Button variant="secondary">Block</Button>
                 </div>
               )}
             </li>

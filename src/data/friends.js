@@ -1,4 +1,4 @@
-export const friends = [
+export const dataFriends = [
   {
     id: 1,
     name: "Reymond Julio",
