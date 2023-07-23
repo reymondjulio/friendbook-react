@@ -8,6 +8,7 @@ export function Button(props) {
         (props.variant === "secondary" &&
           `bg-slate-300 text-black hover:bg-slate-200`)
       }`}
+      {...props}
     >
       {props.children}
     </button>

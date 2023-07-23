@@ -6,6 +6,10 @@ import { dataFriends } from "./data/friends";
 function App() {
   const [friends, setFriends] = useState(dataFriends);
 
+  function confirmFriend(id) {
+    console.log(id);
+  }
+
   return (
     <main className="bg-slate-100">
       <header>
@@ -42,9 +46,13 @@ function App() {
 
               {!friend.isConfirmed && (
                 <div className="p-2 space-y-2">
-                  <Button variant="primary">Confirm</Button>
+                  <Button
+                    variant="primary"
+                    onClick={() => confirmFriend(friend.id)}
+                  >
+                    Confirm
+                  </Button>
                   <Button variant="secondary">Delete</Button>
-                  <Button variant="secondary">Block</Button>
                 </div>
               )}
             </li>
