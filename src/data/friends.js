@@ -2,6 +2,7 @@ export const dataFriends = [
   {
     id: 1,
     name: "Reymond Julio",
+    username: "reymond",
     avatarURL: "/avatars/reymond.jpg",
     age: 26,
     mutualFriends: 5,
@@ -10,6 +11,7 @@ export const dataFriends = [
   {
     id: 2,
     name: "M Haidar Hanif",
+    username: "Haidar",
     avatarURL: "/avatars/haidar.jpg",
     age: 30,
     mutualFriends: 3,
@@ -18,6 +20,7 @@ export const dataFriends = [
   {
     id: 3,
     name: "Christopher Kevin",
+    username: "Christopher",
     avatarURL: "/avatars/christopher.jpg",
     age: 29,
     mutualFriends: 6,
@@ -26,6 +29,7 @@ export const dataFriends = [
   {
     id: 4,
     name: "Caroline Elizabeth",
+    username: "Caroline",
     avatarURL: "/avatars/caroline.jpg",
     age: 25,
     mutualFriends: 10,
@@ -34,6 +38,7 @@ export const dataFriends = [
   {
     id: 5,
     name: "Daniel William",
+    username: "Daniel",
     avatarURL: "/avatars/daniel.jpg",
     age: 25,
     mutualFriends: 8,
@@ -42,6 +47,7 @@ export const dataFriends = [
   {
     id: 6,
     name: "Victoria Grace",
+    username: "Daniel",
     avatarURL: "/avatars/victoria.jpg",
     age: 28,
     mutualFriends: 7,
@@ -50,6 +56,7 @@ export const dataFriends = [
   {
     id: 7,
     name: "Jessica Lyn",
+    username: "Jessica",
     avatarURL: "/avatars/jessica.jpg",
     age: 26,
     mutualFriends: 9,
@@ -58,6 +65,7 @@ export const dataFriends = [
   {
     id: 8,
     name: "Kelly Marie",
+    username: "Kelly",
     avatarURL: "/avatars/kelly.jpg",
     age: 26,
     mutualFriends: 12,

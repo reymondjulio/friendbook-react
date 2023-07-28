@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { FriendCard } from "./components/friend-card";
 
@@ -38,11 +39,16 @@ export default function App() {
         {friends.map((friend) => {
           return (
             <li key={friend.id} className="self-start">
-              <FriendCard
-                friend={friend}
-                confirmFriend={confirmFriend}
-                deleteFriend={deleteFriend}
-              />
+              <Link
+                to={`/${friend.username}`}
+                className="block hover:opacity-80"
+              >
+                <FriendCard
+                  friend={friend}
+                  confirmFriend={confirmFriend}
+                  deleteFriend={deleteFriend}
+                />
+              </Link>
             </li>
           );
         })}
