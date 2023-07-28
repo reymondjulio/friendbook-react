@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { PropTypes } from "prop-types";
 
 import { Button } from "./button";
@@ -5,11 +6,13 @@ import { Button } from "./button";
 export function FriendCard({ friend, confirmFriend, deleteFriend }) {
   return (
     <div className="max-w-fit h-fit rounded bg-white transition ease-in-out delay-150">
-      <img
-        className="w-60 h-60 rounded object-cover  overflow-hidden"
-        src={friend.avatarURL}
-        alt={friend.name}
-      />
+      <Link to={`/${friend.username}`} className="block hover:opacity-80">
+        <img
+          className="w-60 h-60 rounded object-cover  overflow-hidden"
+          src={friend.avatarURL}
+          alt={friend.name}
+        />
+      </Link>
 
       <div className="flex flex-col justify-center items-center p-6 space-y-2">
         <h3 className="text-center text-xl font-semibold">{friend.name}</h3>
