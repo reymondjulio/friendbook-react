@@ -38,7 +38,11 @@ export default function App() {
         {friends.map((friend) => {
           return (
             <li key={friend.id} className="self-start">
-              <FriendCard friend={friend} />
+              <FriendCard
+                friend={friend}
+                confirmFriend={confirmFriend}
+                deleteFriend={deleteFriend}
+              />
             </li>
           );
         })}
@@ -47,7 +51,7 @@ export default function App() {
   );
 }
 
-function FriendCard({ friend }) {
+function FriendCard({ friend, confirmFriend, deleteFriend }) {
   return (
     <div className="max-w-fit h-fit rounded bg-white transition ease-in-out delay-150">
       <img
@@ -87,6 +91,8 @@ FriendCard.propTypes = {
     avatarURL: PropTypes.string.isRequired,
     age: PropTypes.number.isRequired,
     mutualFriends: PropTypes.number.isRequired,
-    isConfirmed: PropTypes.boolean.isRequired,
+    isConfirmed: PropTypes.bool.isRequired,
   },
+  confirmFriend: PropTypes.func,
+  deleteFriend: PropTypes.func,
 };
