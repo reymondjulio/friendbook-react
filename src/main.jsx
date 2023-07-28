@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App";
-import Username from "./routes/username";
+import Username, { loader as usernameLoader } from "./routes/username";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -15,6 +15,7 @@ const router = createBrowserRouter([
   {
     path: "/:username",
     element: <Username />,
+    loader: usernameLoader,
   },
 ]);
 

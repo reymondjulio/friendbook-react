@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { FriendCard } from "./components/friend-card";
 
-import { dataFriends } from "./data/friends";
+import dataFriends from "./data/friends.json";
 
 export default function App() {
   const [friends, setFriends] = useState(dataFriends);
