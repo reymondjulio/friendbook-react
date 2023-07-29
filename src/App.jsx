@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { Header } from "./components/header";
+
 import { FriendCard } from "./components/friend-card";
 
 import dataFriends from "./data/friends.json";
@@ -25,24 +27,15 @@ export default function App() {
 
   return (
     <main className="bg-slate-100 ">
-      <header className="bg-white">
-        <h1 className="text-center text-3xl font-bold py-4 text-blue-500 shadow-md">
-          Friendbook
-        </h1>
-      </header>
-
       {/* <pre>{JSON.stringify(friends, null, 2)}</pre> */}
+      <Header />
 
       {/* Card Container */}
       <ul className="container mx-auto w-full p-8 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 justify-center items-center gap-12">
         {friends.map((friend) => {
           return (
             <li key={friend.id} className="self-start">
-              <FriendCard
-                friend={friend}
-                confirmFriend={confirmFriend}
-                deleteFriend={deleteFriend}
-              />
+              <FriendCard friend={friend} confirmFriend={confirmFriend} deleteFriend={deleteFriend} />
             </li>
           );
         })}
