@@ -14,6 +14,7 @@
     "name": "M Haidar Hanif",
     "username": "Haidar",
     "avatarURL": "/avatars/haidar.jpg",
+    "coverURL": "/cover/haidar-cover.jpg",
     "age": 30,
     "mutualFriends": 3,
     "isConfirmed": false
@@ -23,6 +24,7 @@
     "name": "Christopher Kevin",
     "username": "Christopher",
     "avatarURL": "/avatars/christopher.jpg",
+    "coverURL": "/cover/christopher-cover.jpg",
     "age": 29,
     "mutualFriends": 6,
     "isConfirmed": false
@@ -32,6 +34,7 @@
     "name": "Caroline Elizabeth",
     "username": "Caroline",
     "avatarURL": "/avatars/caroline.jpg",
+    "coverURL": "/cover/caroline-cover.jpg",
     "age": 25,
     "mutualFriends": 10,
     "isConfirmed": true
@@ -41,6 +44,7 @@
     "name": "Daniel William",
     "username": "Daniel",
     "avatarURL": "/avatars/daniel.jpg",
+    "coverURL": "/cover/daniel-cover.jpg",
     "age": 25,
     "mutualFriends": 8,
     "isConfirmed": true
@@ -50,6 +54,7 @@
     "name": "Victoria Grace",
     "username": "Daniel",
     "avatarURL": "/avatars/victoria.jpg",
+    "coverURL": "/cover/victoria-cover.jpg",
     "age": 28,
     "mutualFriends": 7,
     "isConfirmed": false
@@ -59,6 +64,7 @@
     "name": "Jessica Lyn",
     "username": "Jessica",
     "avatarURL": "/avatars/jessica.jpg",
+    "coverURL": "/cover/jessica-cover.jpg",
     "age": 26,
     "mutualFriends": 9,
     "isConfirmed": true
@@ -68,6 +74,7 @@
     "name": "Kelly Marie",
     "username": "Kelly",
     "avatarURL": "/avatars/kelly.jpg",
+    "coverURL": "/cover/kelly-cover.jpg",
     "age": 26,
     "mutualFriends": 12,
     "isConfirmed": false
