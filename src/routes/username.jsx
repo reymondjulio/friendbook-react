@@ -25,7 +25,7 @@ export default function Username() {
       <Header />
       <main className="container mx-auto w-full h-auto">
         <div className="container mx-auto max-w-4xl ">
-          <img className="w-full h-96 mb-4 bg-cover bg-center rounded-md" src={friend.coverURL} alt={friend.name} />
+          <img className="w-full h-96 mb-4 bg-cover bg-center object-cover rounded-md" src={friend.coverURL} alt={friend.name} />
         </div>
 
         <div className="container max-w-4xl mx-auto flex justify-between bg-white border-2 border-white p-4">
