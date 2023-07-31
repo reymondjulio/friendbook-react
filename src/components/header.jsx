@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export function Header() {
   return (
-    <header className="bg-blue-500">
-      <div className="container mx-auto bg-blue-500 p-4 flex justify-between items-center">
+    <header className="bg-blue-500 sticky top-0 z-10">
+      <div className="container mx-auto bg-blue-500 p-4 flex justify-between items-center ">
         <h1 className="text-left text-2xl font-bold text-white">
           <Link to="/"> Friendbook</Link>
         </h1>
