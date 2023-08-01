@@ -8,7 +8,7 @@ export function Header() {
           <Link to="/"> Friendbook</Link>
         </h1>
 
-        <ul className="flex gap-x-4">
+        <ul className="flex gap-x-16">
           <li>
             <Link to="/register" className="text-white font-semibold">
               Register
