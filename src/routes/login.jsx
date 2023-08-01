@@ -13,8 +13,15 @@ export default function Login() {
 
         <div className="max-w-sm w-full mb-40 ring-0">
           <form className="flex flex-col gap-y-4 bg-white  p-6" action="">
-            <input className="border-2 p-2 focus:outline-blue-500" type="text" placeholder="Email or Phone Number" />
-            <input className="border-2 p-2 focus:outline-blue-500" type="text" placeholder="Password" />
+            <div className="w-full">
+              <label htmlFor="email"></label>
+              <input className="border-2 p-2 focus:outline-blue-500 w-full" id="email" name="email" type="text" autoComplete="email" required placeholder="Email or Phone Number" />
+            </div>
+            <div>
+              <label htmlFor="password"></label>
+              <input className="border-2 p-2 focus:outline-blue-500 w-full" id="password" name="password" type="password" autoComplete="current-password" required placeholder="Password" />
+            </div>
+
             <button className="bg-blue-400 hover:bg-blue-300 text-white py-2 rounded font-bold" type="submit">
               Log in
             </button>
