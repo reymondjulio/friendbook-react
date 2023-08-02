@@ -4,10 +4,10 @@ export default function Register() {
   return (
     <div>
       <Header />
-      <div className="min-h-screen flex  justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-md w-full space-y-8 border-2 rounded-lg ring-3 border-blue-100 h-full p-4">
+      <div className="w-full flex justify-center  bg-gray-50 py-12 px-12">
+        <div className="max-w-md w-full h-full space-y-8 border-2 rounded-lg ring-3 border-blue-100  p-4">
           <div>
-            <h2 className="mt-6 text-center text-3xl font-extrabold text-blue-500">Register an Account</h2>
+            <h2 className="mt-6 text-center text-2xl sm:text-3xl font-extrabold text-blue-500">Register an Account</h2>
           </div>
           <form className="mt-8 space-y-6 p-4">
             <div className="rounded-md shadow-sm space-y-6">
