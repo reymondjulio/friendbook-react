@@ -1,20 +1,19 @@
 import { Header } from "../components/header";
+import { Link } from "react-router-dom";
 
 export default function Register() {
   return (
     <div>
       <Header />
-      <div className="w-full flex justify-center  bg-gray-50 py-12 px-12">
-        <div className="max-w-md w-full h-full space-y-8 border-2 rounded-lg ring-3 border-blue-100  p-4">
+      <div className="w-full flex justify-center items-center bg-gray-50 py-12 px-12">
+        <div className="max-w-md w-full h-full space-y-8 border-2 rounded-lg ring-3 border-blue-200 p-4">
           <div>
             <h2 className="mt-6 text-center text-2xl sm:text-3xl font-extrabold text-blue-500">Register an Account</h2>
           </div>
           <form className="mt-8 space-y-6 p-4">
             <div className="rounded-md shadow-sm space-y-6">
-              <div>
-                <label htmlFor="name" className="sr-only">
-                  Name
-                </label>
+              <div className="space-y-1">
+                <label htmlFor="name">Name:</label>
                 <input
                   id="name"
                   name="name"
@@ -24,10 +23,8 @@ export default function Register() {
                   placeholder="Name"
                 />
               </div>
-              <div>
-                <label htmlFor="email-address" className="sr-only">
-                  Email address
-                </label>
+              <div className="space-y-1">
+                <label htmlFor="email-address">Email:</label>
                 <input
                   id="email-address"
                   name="email"
@@ -38,10 +35,8 @@ export default function Register() {
                   placeholder="Email address"
                 />
               </div>
-              <div>
-                <label htmlFor="password" className="sr-only">
-                  Password
-                </label>
+              <div className="space-y-1">
+                <label htmlFor="password">Password:</label>
                 <input
                   id="password"
                   name="password"
@@ -53,10 +48,8 @@ export default function Register() {
                 />
               </div>
 
-              <div>
-                <label htmlFor="birthday" className="sr-only">
-                  Birthday
-                </label>
+              <div className="space-y-1">
+                <label htmlFor="birthday">Birth date:</label>
                 <input
                   id="birthday"
                   name="birthday"
@@ -67,10 +60,8 @@ export default function Register() {
                 />
               </div>
 
-              <div>
-                <label htmlFor="gender" className="sr-only">
-                  Gender
-                </label>
+              <div className="space-y-1">
+                <label htmlFor="gender">Gender:</label>
                 <select
                   id="gender"
                   name="gender"
@@ -95,6 +86,13 @@ export default function Register() {
               >
                 Register
               </button>
+            </div>
+            <div className="self-center">
+              <Link to="/login">
+                <button className="bg-green-500 hover:bg-green-400 py-2 rounded text-white text-sm font-bold w-full self-center" type="submit">
+                  Log In
+                </button>
+              </Link>
             </div>
           </form>
         </div>
