@@ -6,7 +6,26 @@
     "avatarURL": "/avatars/reymond.jpg",
     "coverURL": "/cover/reymond-cover.jpg",
     "age": 26,
-    "mutualFriends": 5,
+    "mutualFriends": [
+      {
+        "id": 4,
+        "name": "Caroline Elizabeth",
+        "username": "Caroline",
+        "avatarURL": "/avatars/caroline.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Daniel William",
+        "username": "Daniel",
+        "avatarURL": "/avatars/daniel.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Jessica Lyn",
+        "username": "Jessica",
+        "avatarURL": "/avatars/jessica.jpg"
+      }
+    ],
     "isConfirmed": true
   },
   {
