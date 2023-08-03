@@ -31,10 +31,10 @@ export default function App() {
       <Header />
 
       {/* Card Container */}
-      <ul className="container mx-auto w-full p-8 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 justify-center items-center gap-12">
+      <ul className="container mx-auto w-full py-8 px-2 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 justify-center items-center gap-x-2 lg:gap-x-0 gap-y-4">
         {friends.map((friend) => {
           return (
-            <li key={friend.id} className="self-start">
+            <li key={friend.id} className="self-start justify-self-center">
               <FriendCard friend={friend} confirmFriend={confirmFriend} deleteFriend={deleteFriend} />
             </li>
           );
