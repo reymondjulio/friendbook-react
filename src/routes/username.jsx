@@ -2,7 +2,7 @@ import { useLoaderData } from "react-router-dom";
 
 import dataFriends from "../data/friends.json";
 
-import { Header } from "../components/header";
+import { Header } from "../layouts/header";
 
 import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/solid";
 

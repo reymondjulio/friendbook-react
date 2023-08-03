@@ -1,10 +1,12 @@
 import { useState } from "react";
 
-import { Header } from "./components/header";
+import { Header } from "./layouts/header";
 
 import { FriendCard } from "./components/friend-card";
 
 import dataFriends from "./data/friends.json";
+
+import { Footer } from "./layouts/footer.jsx";
 
 export default function App() {
   const [friends, setFriends] = useState(dataFriends);
@@ -40,6 +42,7 @@ export default function App() {
           );
         })}
       </ul>
+      <Footer />
     </main>
   );
 }

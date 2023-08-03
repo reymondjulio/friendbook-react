@@ -1,4 +1,4 @@
-import { Header } from "../components/header";
+import { Header } from "../layouts/header";
 import { Link } from "react-router-dom";
 
 export default function Register() {
