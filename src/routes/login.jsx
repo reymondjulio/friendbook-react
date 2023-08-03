@@ -1,4 +1,5 @@
 import { Header } from "../components/header";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
@@ -26,9 +27,12 @@ export default function Login() {
               Log in
             </button>
             <p className="text-center text-blue-500">Forgot password?</p>
-            <button className="bg-green-500 hover:bg-green-400 py-2 rounded text-white text-sm font-bold w-1/2 self-center" type="submit">
-              Create New Account
-            </button>
+
+            <Link to="/register" className="block text-center">
+              <button className="bg-green-500 hover:bg-green-400 py-2 rounded text-white text-sm font-bold w-1/2 self-center" type="submit">
+                Create New Account
+              </button>
+            </Link>
           </form>
         </div>
       </div>
