@@ -1,5 +1,6 @@
 import { Header } from "../layouts/header";
 import { Link } from "react-router-dom";
+import { Footer } from "../layouts/footer";
 
 export default function Register() {
   return (
@@ -97,7 +98,7 @@ export default function Register() {
           </form>
         </div>
       </div>
-      ;
+      <Footer />
     </div>
   );
 }

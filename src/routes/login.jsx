@@ -1,5 +1,6 @@
 import { Header } from "../layouts/header";
 import { Link } from "react-router-dom";
+import { Footer } from "../layouts/footer";
 
 export default function Login() {
   return (
@@ -36,6 +37,7 @@ export default function Login() {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
