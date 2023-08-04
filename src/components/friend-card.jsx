@@ -12,7 +12,7 @@ export function FriendCard({ friend, confirmFriend, deleteFriend }) {
       <div className="flex flex-col justify-center items-center p-2 space-y-2">
         <h3 className="text-center text-md sm:text-xl font-semibold">{friend.name}</h3>
         <p className="text-center text-md sm:text-lg text-slate-800">{friend.age} years old</p>
-        <p className="text-center text-md sm:text-lg text-slate-500">{friend.mutualFriends} mutual friends</p>
+        <p className="text-center text-md sm:text-lg text-slate-500">{friend.mutualFriends.length} mutual friends</p>
       </div>
 
       {!friend.isConfirmed && (
@@ -35,7 +35,7 @@ FriendCard.propTypes = {
     name: PropTypes.string.isRequired,
     avatarURL: PropTypes.string.isRequired,
     age: PropTypes.number.isRequired,
-    mutualFriends: PropTypes.number.isRequired,
+    mutualFriends: PropTypes.array.isRequired,
     isConfirmed: PropTypes.bool.isRequired,
   },
   confirmFriend: PropTypes.func,
