@@ -9,7 +9,9 @@ export default function Register() {
       <div className="w-full flex justify-center items-center bg-gray-50 py-12 px-12">
         <div className="max-w-md w-full h-full space-y-8 border-2 rounded-lg ring-3 border-blue-200 p-4">
           <div>
-            <h2 className="mt-6 text-center text-2xl sm:text-3xl font-extrabold text-blue-500">Register an Account</h2>
+            <h2 className="mt-6 text-center text-2xl sm:text-3xl font-extrabold text-blue-500">
+              Register an Account
+            </h2>
           </div>
           <form className="mt-8 space-y-6 p-4">
             <div className="rounded-md shadow-sm space-y-6">
@@ -89,10 +91,11 @@ export default function Register() {
               </button>
             </div>
             <div className="self-center">
-              <Link to="/login">
-                <button className="bg-green-500 hover:bg-green-400 py-2 rounded text-white text-sm font-bold w-full self-center" type="submit">
-                  Log In
-                </button>
+              <Link
+                to="/login"
+                className="bg-green-500 hover:bg-green-400 py-2 rounded text-white text-sm font-bold w-full self-center"
+              >
+                Log In
               </Link>
             </div>
           </form>
